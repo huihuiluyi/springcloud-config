@@ -11,8 +11,10 @@ spring:
           uri: git@github.com:huihuiluyi/springcloud-config.git
           search-paths:
             - springcloud-config
+          strict-host-key-checking: false
+          skip-ssl-validation: true
       #读取分支
-      label: master
+      label: main
 
 eureka:
   client:

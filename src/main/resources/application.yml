@@ -11,6 +11,7 @@ spring:
           uri: git@github.com:huihuiluyi/springcloud-config.git
           search-paths:
             - springcloud-config
+      #读取分支
       label: master
 
 eureka:
